@@ -10,6 +10,8 @@ function code -d "Visual Studio Code"
     command code $argv
   else if test -d "/Applications/Visual Studio Code.app"
     open -n -b "com.microsoft.VSCode" --args $argv
+  else if test -d "$HOME/.local/share/umake/ide/visual-studio-code"
+    command ~/.local/share/umake/ide/visual-studio-code/Code $argv
   else
     echo "No Visual Studio Code installation found" >&2
     return 1
