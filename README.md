@@ -24,7 +24,7 @@ See https://code.visualstudio.com/docs/editor/setup for more information.
 > Be sure to have [Visual Studio Code](https://code.visualstudio.com/) installed.
 
 ```fish
-$ omf install code
+$ omf install vscode
 ```
 
 ## Usage
